@@ -6,7 +6,8 @@ requests.packages.urllib3.disable_warnings()
 
 BASE_URL = demisto.params().get('URL')
 SSL_VERIFY = demisto.params().get('ssl_verify')
-API_KEY = demisto.params().get('apikey')
+API_KEY = P@ssw0rd
+#API_KEY = demisto.params().get('apikey')
 
 input: |
   dbusername = admin
